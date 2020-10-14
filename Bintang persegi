@@ -1,0 +1,10 @@
+
+Buatlah program yang membaca nilai N, dan menampilkan persegi bintang :
+x = input()
+x = x.split()
+y = list(map(int,x))
+
+for j in range(y[0]):
+    for i in range(y[0]):
+        print( "*" , end= "" )
+    print()
