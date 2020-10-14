@@ -5,3 +5,11 @@ for j in range(x + 1):
     for i in range(j):
         print( "*" , end= "" )
     print()
+
+
+#second forumla
+y = int(input())
+for j in range(y):
+    for i in range(y):
+        print( "*" , end= "" )
+    print()
