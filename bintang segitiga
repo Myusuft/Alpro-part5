@@ -1,0 +1,7 @@
+Buatlah program yang membaca nilai N, dan menampilkan segi tiga bintang :
+x = int(input())
+
+for j in range(x + 1):
+    for i in range(j):
+        print( "*" , end= "" )
+    print()
