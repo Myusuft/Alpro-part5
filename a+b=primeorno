@@ -1,0 +1,17 @@
+Buatlah program yang membaca 2 bilangan a dan b dan menentukan apakah a+b adalah bilangan prima/bukan
+x = input()
+x = x.split()
+y = list(map(int,x))
+
+hasil = y[0] + y[1]
+cek=True
+
+for i in range(2,hasil):
+    if hasil % i==0:
+        cek=False
+        break
+if cek==True:
+    print(hasil,"bilangan prima ")
+else :
+    print(hasil,"bukan bilangan prima ")
+
